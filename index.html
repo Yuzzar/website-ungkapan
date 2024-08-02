@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Letter</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <script src="animation.js"></script>
+</head>
+
+<body>
+  <audio loop id="bgm">
+    <source src="03 Lover.mp3" type="audio/mpeg" />
+  </audio>
+  <div id="main">
+    <div id="letter">
+      <p>Selamat 3 bulan, Wulan Nenda Azzahra Pacarkuu! Gak kerasa udah tiga bulan aja kita bareng-bareng. Thank you banget buat semua momen seru dan obrolan asik yang udah kita lalui. makasi yaa udah bikin hari-hariku jadi lebih meaningful dan penuh warna.</p>
+      <p> Aku tahu kadang ada aja tantangan dan halangan yang harus kita hadapi, dan kata orang ada kutukan 3 bulan. Tapi aku yakin kita bisa ngelewatin itu. Kita udah buktiin kalau kita kuat bareng-bareng, dan aku percaya kita bisa terus begitu.</p>
+      <p>Aku juga tahu, mungkin ada saat-saat ketika kamu merasa lagi banyak pikiran atau terbebani. Tapi percayalah, aku selalu ada buat kamu, siap dengerin cerita dan support kamu.</p>
+      <p>Cheers untuk lebih banyak kenangan indah dan momen seru ke depan! Semoga segala sesuatunya segera membaik dan kita bisa terus bareng dengan semangat yang sama. Thanks for being you, aku bersyukur banget punya kamu di hidupku.</p>
+      <br />
+      <p>Oh iya, katanya kamu mau bunga ya? Nih bunganya:</p>
+      <br></br>
+      <button id="link-button" onclick="window.location.href='flower.html'">Klik di sini untuk melihat lebih banyak</button>
+      <div id="clock-box">
+        <div id="clock-text">Waktu Jadian</div>
+        <div id="clock"></div>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <hr id="horizontal-line">
+  </div>
+  <input type="hidden" id="memorialDate" value="2024-05-01T00:00:00" />
+  <script src="app.js"></script>
+</body>
+</html>
